@@ -12,6 +12,7 @@ height: 700px;
 display: flex;
 font-family: sans-serif;
 
+
 }
 
 #content{
@@ -139,9 +140,13 @@ body {
   
   .column {
     float: left;
-    width: 33.3%;
+    width: 24.3%;
     margin-bottom: 16px;
     padding: 0 8px;
+    
+  }
+  .row{
+    margin-left: 45px;
   }
   
   .card {
@@ -198,7 +203,7 @@ body {
 .open-button {
   /* background-color: #555; */ background-color: #f9b634;
   color: black;
-  padding: 16px 20px;
+  padding: 16px 15px;
   border: none;
   font-weight: bold;
   cursor: pointer;
@@ -208,11 +213,18 @@ body {
   right: 28px;
   width: 280px;
   /* position: fixed; */
-  margin-bottom: 2px;
+  margin-bottom: 5px;
 }
 .open-button :hover{
- background-color:#f3bc4e;
+ background-color:#f9b634;
+ opacity: 0.3;
  
+}
+#dam, #fam, #sam, #ti{
+  background-color: #f9b634;
+  font-weight: bolder;
+  border: none;
+  padding: 5px;
 }
 
 /* The popup form - hidden by default */
@@ -290,4 +302,20 @@ body {
       width: 100%;
       display: block;
     }
+    .cont1{
+      height: 500px;
+    }
+    #content{
+      width: 400px;
+      height: 200px;
+      margin-left: 10px;
+      }
+      #content2{
+     margin-top: 350px;
+    padding-top: 5px;
+      }
+      .end{
+        margin-left: 50px;
   }
+}
+  
